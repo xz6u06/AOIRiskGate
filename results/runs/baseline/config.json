@@ -1,0 +1,19 @@
+{
+  "seed": 114514,
+  "device": "auto",
+  "train_dir": "datasets/NEU-DET/train/images",
+  "val_dir": "datasets/NEU-DET/validation/images",
+  "img_size": 200,
+  "batch_size": 128,
+  "num_workers": 8,
+  "epochs": 20,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "momentum": 0.9,
+  "run_dir": "./runs",
+  "val_dir_out": "./vals",
+  "run_name": null,
+  "model_name": "resnet18",
+  "model_pretrained": true,
+  "train_freeze_backbone": true
+}

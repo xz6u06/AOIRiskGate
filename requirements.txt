@@ -1,0 +1,36 @@
+# 基礎工具與開發環境 (Basic Utilities & Environment)
+requests
+jupyterlab
+ipykernel
+tqdm
+python-dotenv
+black
+
+# 數據科學與分析 (Data Science & Analysis)
+numpy
+pandas
+
+# 數據視覺化 (Data Visualization)
+matplotlib
+seaborn
+
+# 機器學習 (Machine Learning)
+scikit-learn
+xgboost
+lightgbm
+imbalanced-learn
+
+# 電腦視覺與影像處理 (Computer Vision & Image Processing)
+opencv-python
+pillow
+scikit-image
+
+# 深度學習 - PyTorch 生態系 (Deep Learning - PyTorch Ecosystem)
+# 提醒：實際安裝時，建議根據您的硬體 (GPU/CUDA) 版本參考官網安裝指令
+torch
+torchvision
+torchaudio
+
+
+# Web UI 
+gradio==6.6.0

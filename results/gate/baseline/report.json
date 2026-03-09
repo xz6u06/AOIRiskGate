@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "run_name": "baseline",
+    "scores_path": "/home/eeeyyyfann/Codes/my_practice/results/gate/baseline/scores.csv",
+    "threshold": 9.275451606139306,
+    "created_at": "2026-03-04T16:13:54",
+    "mode": "target_review",
+    "target_review": 0.05
+  },
+  "metrics": {
+    "review_rate": 0.05,
+    "automation_rate": 0.95,
+    "escape_rate": 0.029239766081871343,
+    "error_capture_rate": 0.6428571428571429,
+    "n_total": 360,
+    "n_review": 18,
+    "n_auto": 342,
+    "n_wrong_total": 28,
+    "n_wrong_review": 18,
+    "n_wrong_escape": 10
+  },
+  "top_review": [
+    {
+      "idx": 64,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_245.jpg",
+      "risk_score": 16.779674947761695,
+      "risk_centroid": 17.081233513514388,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 83,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_264.jpg",
+      "risk_score": 14.443647704630434,
+      "risk_centroid": 15.755142665508536,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 63,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_244.jpg",
+      "risk_score": 14.027824805161282,
+      "risk_centroid": 17.01948634411686,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 291,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/rolled-in_scale/rolled-in_scale_292.jpg",
+      "risk_score": 13.517904087866214,
+      "risk_centroid": 14.264773363366492,
+      "y_true": 4,
+      "y_pred": 0,
+      "correct": false
+    },
+    {
+      "idx": 62,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_243.jpg",
+      "risk_score": 12.412649347740366,
+      "risk_centroid": 15.815505970841281,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 297,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/rolled-in_scale/rolled-in_scale_298.jpg",
+      "risk_score": 12.356835549865352,
+      "risk_centroid": 13.579598203106372,
+      "y_true": 4,
+      "y_pred": 0,
+      "correct": false
+    },
+    {
+      "idx": 103,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_284.jpg",
+      "risk_score": 12.288626716703314,
+      "risk_centroid": 14.315887089017805,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 218,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/pitted_surface/pitted_surface_279.jpg",
+      "risk_score": 11.718895347578936,
+      "risk_centroid": 12.429235021458812,
+      "y_true": 3,
+      "y_pred": 1,
+      "correct": false
+    },
+    {
+      "idx": 236,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/pitted_surface/pitted_surface_297.jpg",
+      "risk_score": 11.3009447662008,
+      "risk_centroid": 12.055328903774104,
+      "y_true": 3,
+      "y_pred": 1,
+      "correct": false
+    },
+    {
+      "idx": 221,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/pitted_surface/pitted_surface_282.jpg",
+      "risk_score": 11.276248162045116,
+      "risk_centroid": 11.933666360530902,
+      "y_true": 3,
+      "y_pred": 1,
+      "correct": false
+    },
+    {
+      "idx": 69,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_250.jpg",
+      "risk_score": 11.028898780737947,
+      "risk_centroid": 14.766638448456215,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 74,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_255.jpg",
+      "risk_score": 10.262162590338763,
+      "risk_centroid": 14.088778528910355,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 106,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_287.jpg",
+      "risk_score": 10.205857255658042,
+      "risk_centroid": 13.421062468220727,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 108,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_289.jpg",
+      "risk_score": 10.125970967129751,
+      "risk_centroid": 13.62104273468087,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 115,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_296.jpg",
+      "risk_score": 9.948150038351521,
+      "risk_centroid": 13.86304359860182,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 60,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_241.jpg",
+      "risk_score": 9.891387801761272,
+      "risk_centroid": 13.762939278736788,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 67,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_248.jpg",
+      "risk_score": 9.598590733197033,
+      "risk_centroid": 13.914512759776018,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 61,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_242.jpg",
+      "risk_score": 9.483718623382247,
+      "risk_centroid": 12.585381460371892,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    }
+  ],
+  "top_escape": [
+    {
+      "idx": 219,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/pitted_surface/pitted_surface_280.jpg",
+      "risk_score": 9.264490184179149,
+      "risk_centroid": 10.977570835410061,
+      "y_true": 3,
+      "y_pred": 1,
+      "correct": false
+    },
+    {
+      "idx": 105,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_286.jpg",
+      "risk_score": 9.243713703888982,
+      "risk_centroid": 12.816592028127921,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 68,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_249.jpg",
+      "risk_score": 9.194218408494976,
+      "risk_centroid": 13.249093278557464,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 73,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_254.jpg",
+      "risk_score": 8.413275900038686,
+      "risk_centroid": 12.559814850712373,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 109,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_290.jpg",
+      "risk_score": 8.376148627955581,
+      "risk_centroid": 12.302909667524768,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 102,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_283.jpg",
+      "risk_score": 8.068812194380252,
+      "risk_centroid": 11.67591936342997,
+      "y_true": 1,
+      "y_pred": 5,
+      "correct": false
+    },
+    {
+      "idx": 238,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/pitted_surface/pitted_surface_299.jpg",
+      "risk_score": 7.6912844357736025,
+      "risk_centroid": 9.46957788918385,
+      "y_true": 3,
+      "y_pred": 1,
+      "correct": false
+    },
+    {
+      "idx": 75,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_256.jpg",
+      "risk_score": 7.2773711176484275,
+      "risk_centroid": 11.838405754491962,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 116,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_297.jpg",
+      "risk_score": 6.367082067959831,
+      "risk_centroid": 11.286991034392338,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    },
+    {
+      "idx": 70,
+      "path": "/home/eeeyyyfann/Codes/my_practice/dataset/NEU-DET/validation/images/inclusion/inclusion_251.jpg",
+      "risk_score": 6.247612239101983,
+      "risk_centroid": 13.282515145748722,
+      "y_true": 1,
+      "y_pred": 3,
+      "correct": false
+    }
+  ],
+  "copied": {
+    "review": 18,
+    "escape": 10
+  }
+}
