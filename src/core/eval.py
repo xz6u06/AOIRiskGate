@@ -12,12 +12,14 @@ try:
     from .data import build_dataloader
     from .engine import evaluate_with_cm
     from .models import build_model
+    from .utils import save_json
     from .viz import plot_anomaly_his, plot_confusion_matrix
 except ImportError:
     from config import Config, ensure_dir, resolve_device, resolve_project_path
     from data import build_dataloader
     from engine import evaluate_with_cm
     from models import build_model
+    from utils import save_json
     from viz import plot_anomaly_his, plot_confusion_matrix
 
 
@@ -194,6 +196,18 @@ def main() -> int:
         normalize=True,
         title="Val Confusion Matrix (Normalized)",
     )
+
+    metrics_index = {
+        "accuracy": float(metrics["accuracy"]),
+        "precision": dict(zip(class_names, metrics["precision"].tolist())),
+        "recall": dict(zip(class_names, metrics["recall"].tolist())),
+        "f1": dict(zip(class_names, metrics["f1"].tolist())),
+        "support": dict(zip(class_names, map(int, metrics["support"].tolist()))),
+        "macro_precision": float(metrics["macro_precision"]),
+        "macro_recall": float(metrics["macro_recall"]),
+        "macro_f1": float(metrics["macro_f1"]),
+    }
+    save_json(out_root / "metrics_index.json", metrics_index)
 
     if args.copy_misclassified:
         _save_misclassified(

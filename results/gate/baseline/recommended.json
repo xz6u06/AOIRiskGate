@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "run_name": "baseline",
+    "ckpt_path": "./results/runs/baseline/checkpoints/best.pt",
+    "model": "resnet18",
+    "method": "pca_recon_pred_class",
+    "min_correct_per_class": 5,
+    "target_review": 0.05,
+    "created_at": "2026-03-10T17:10:44",
+    "val_dir": "./dataset/NEU-DET/validation/images",
+    "img_size": 200,
+    "score_type": "abs(z-score_normalized)"
+  },
+  "threshold": 9.040121300303463,
+  "metrics": {
+    "review_rate": 0.05,
+    "automation_rate": 0.95,
+    "escape_rate": 0.023391812865497075,
+    "error_capture_rate": 0.6923076923076923,
+    "n_total": 360,
+    "n_review": 18,
+    "n_auto": 342,
+    "n_wrong_total": 26,
+    "n_wrong_review": 18,
+    "n_wrong_escape": 8
+  }
+}

@@ -17,10 +17,7 @@ class Config:
     # Data
     train_dir: str = "./dataset/NEU-DET/train/images"
     val_dir: str = "./dataset/NEU-DET/validation/images"
-    # train_dir: str = "/Users/yifan/Codes/datasets/NEU-DET/train/images"
-    # val_dir: str = "/Users/yifan/Codes/datasets/NEU-DET/validation/images"
-    # train_dir: str = "/home/eeeyyyfann/Codes/datasets/NEU-DET/train/images"
-    # val_dir: str = "/home/eeeyyyfann/Codes/datasets/NEU-DET/validation/images"
+
     img_size: int = 200  # pixel
 
     # Loader

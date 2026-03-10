@@ -36,7 +36,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--run-dir", default=Config.run_dir)
     p.add_argument("--run-name", default=None)
 
-    p.add_argument("--model", default="resnet18", help="simple|resnet18")
+    p.add_argument("--model", default=Config.model_name, help="simple|resnet18")
 
     p.add_argument(
         "--pretrained",

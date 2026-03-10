@@ -1,0 +1,38 @@
+{
+  "accuracy": 0.9277777671813965,
+  "precision": {
+    "crazing": 0.9833333492279053,
+    "inclusion": 0.9090909361839294,
+    "patches": 0.9836065769195557,
+    "pitted_surface": 0.8235294222831726,
+    "rolled-in_scale": 1.0,
+    "scratches": 0.8823529481887817
+  },
+  "recall": {
+    "crazing": 0.9833333492279053,
+    "inclusion": 0.6666666865348816,
+    "patches": 1.0,
+    "pitted_surface": 0.9333333373069763,
+    "rolled-in_scale": 0.9833333492279053,
+    "scratches": 1.0
+  },
+  "f1": {
+    "crazing": 0.9833333492279053,
+    "inclusion": 0.7692307829856873,
+    "patches": 0.9917355179786682,
+    "pitted_surface": 0.875,
+    "rolled-in_scale": 0.9915966391563416,
+    "scratches": 0.9375
+  },
+  "support": {
+    "crazing": 60,
+    "inclusion": 60,
+    "patches": 60,
+    "pitted_surface": 60,
+    "rolled-in_scale": 60,
+    "scratches": 60
+  },
+  "macro_precision": 0.9303188323974609,
+  "macro_recall": 0.9277777671813965,
+  "macro_f1": 0.9247327446937561
+}

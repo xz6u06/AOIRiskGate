@@ -10,15 +10,15 @@ import torch.nn as nn
 try:
     from .checkpoints import save_checkpoint
     from .config import Config, ensure_dir, resolve_device
+    from .features import activation_to_embedding, attach_activation_hook
     from .utils import AverageMeter, accuracy, now_run_id, save_json, set_seed
-    from .viz import save_train_curve, plot_PCA_analysis
-    from .features import attach_activation_hook, activation_to_embedding
+    from .viz import plot_PCA_analysis, save_train_curve
 except ImportError:
     from checkpoints import save_checkpoint
     from config import Config, ensure_dir, resolve_device
+    from features import activation_to_embedding, attach_activation_hook
     from utils import AverageMeter, accuracy, now_run_id, save_json, set_seed
-    from viz import save_train_curve, plot_PCA_analysis
-    from features import attach_activation_hook, activation_to_embedding
+    from viz import plot_PCA_analysis, save_train_curve
 
 
 def train_one_epoch(
@@ -284,7 +284,7 @@ def evaluate_with_cm(
     cm = torch.zeros((n_class, n_class), dtype=torch.long)
     for t, p in zip(y_true, y_pred):
         cm[t, p] += 1
-    tp = cm.diag()
+    tp = cm.diag()  # 對角線元素
     fp = cm.sum(dim=0) - tp
     fn = cm.sum(dim=1) - tp
 
